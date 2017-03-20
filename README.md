@@ -8,8 +8,7 @@ Open `index.html` in a browser (specifically, Safari Technology Preview). Open t
 ## Some things to know (for now)
 * Unlike Node, or bundlers such as webpack and browserify, Safari expects `.js`
 extensions to be included in imports. e.g. `import './program.js'`.
-* Dynamic imports can be used anywhere, including `<script>` tags embedded in HT
-ML pages.
+* Dynamic imports can be used anywhere, including `<script>` tags embedded in HTML pages.
 * Static imports can only be used at the top level of JavaScript modules (separate `.js` files).
 * The result obtained via a dynamic import's returned `Promise` is not the default export. You must use the `default` property of the passed object.
 
