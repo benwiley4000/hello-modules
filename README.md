@@ -1,6 +1,6 @@
 # Hello, modules
 
-A simple working usage of static and dynamic ES2015 imports, working in [Safari Technolgy Preview](https://developer.apple.com/safari/technology-preview/) (Tested Release 25, March 2017).
+A simple working usage of static and dynamic ES2015 imports, working in [Safari Technology Preview](https://developer.apple.com/safari/technology-preview/) (Tested Release 25, March 2017).
 
 ## How to run
 Open `index.html` in a browser (specifically, Safari Technology Preview). Open the developer console and observe the output. See the JavaScript and HTML files for reference. As of this writing Chrome and Firefox do not fully implement either dynamic or static ES2015 imports.
